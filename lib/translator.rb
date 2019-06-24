@@ -17,6 +17,7 @@ def load_library(path)
   emoticon_lib.each do |key, values|
     hash_emote_kingdom["get_meaning"][values[1]] = {}
     hash_emote_kingdom["get_meaning"][values[1]] = key
+    hash_emote_kingdom["get_emoticon"][values[0]] = {}
 #    binding.pry
   end
 #  binding.pry
