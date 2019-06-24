@@ -15,9 +15,9 @@ def load_library(path)
   hash_emote_kingdom[:get_emoticon] = {}
   emoticon_lib = YAML.load_file(path)
   emoticon_lib.each do |key, values|
-  
+    binding.pry
   end
-#  binding.pry
+  binding.pry
   hash_emote_kingdom
 #  emoticon_lib
 end
