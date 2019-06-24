@@ -15,7 +15,7 @@ def load_library(path)
   emoticon_lib.each do |key, values|
   hash_emote_kingdom = {:get_meaning => {}, :get_emoticon=>{}}
   end
-  binding.pry
+#  binding.pry
   hash_emote_kingdom
 #  emoticon_lib
 end
