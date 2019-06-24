@@ -18,6 +18,7 @@ def load_library(path)
     hash_emote_kingdom["get_meaning"][values[1]] = {}
     hash_emote_kingdom["get_meaning"][values[1]] = key
     hash_emote_kingdom["get_emoticon"][values[0]] = {}
+    hash_emote_kingdom["get_emoticon"][values[0]] = key
 #    binding.pry
   end
 #  binding.pry
