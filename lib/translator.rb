@@ -3,13 +3,13 @@ require 'yaml'
 require 'pry'
 
 emoticon_lib = YAML.load_file('lib/emoticons.yml')
-hase = YAML.load(File.read('lib/emoticons.yml'))
+hash = YAML.load(File.read('lib/emoticons.yml'))
 
-def load_library(hash)
-
+def load_library
+  emoticon_lib = YAML.load_file('lib/emoticons.yml')
   hash
 binding.pry
-  hash
+  emoticon_lib
 end
 
 def get_japanese_emoticon
