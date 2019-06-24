@@ -7,9 +7,13 @@ hash = YAML.load(File.read('lib/emoticons.yml'))
 
 path = 'lib/emoticons.yml'
 
+hash_emote_kingdom = {}
+
 def load_library(path)
   emoticon_lib = YAML.load_file(path)
-  emoticon_lib
+  binding.pry
+  hash_emote_kingdom
+#  emoticon_lib
 end
 
 def get_japanese_emoticon
