@@ -7,7 +7,7 @@ hash = YAML.load(File.read('lib/emoticons.yml'))
 
 path = 'lib/emoticons.yml'
 
-hash_emote_kingdom = {get_meaning => {}, get_emoticon=>{}}
+hash_emote_kingdom = {:get_meaning => {}, :get_emoticon=>{}}
 
 def load_library(path)
   
