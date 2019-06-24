@@ -8,7 +8,7 @@ hash = YAML.load(File.read('lib/emoticons.yml'))
 path = 'lib/emoticons.yml'
 
 def load_library(path)
-  emoticon_lib = YAML.load_file('lib/emoticons.yml')
+  emoticon_lib = YAML.load_file(path)
   hash
 binding.pry
   emoticon_lib
