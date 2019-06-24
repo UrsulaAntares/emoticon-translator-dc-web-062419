@@ -27,8 +27,7 @@ def load_library(path)
 end
 
 def get_japanese_emoticon(path, emoticon)
-  load_library(path)
-  load_library(path)["get_meaning"].each do |characters, meaning|
+  load_library(path)["get_emoticon"].each do |characters, meaning|
     if characters == emoticon 
       return meaning  
 #  binding.pry
